@@ -6,7 +6,6 @@ body {
 
 header {
     background-color: #696969;
-    height: 60px;
     display: flex;
     justify-content: center;
     color: white;
@@ -17,10 +16,11 @@ header {
     background-color: #696969;
     padding-left: 30px;
     margin: 28px 0;
-    width: 280px;
-    height: 700px;
+    width: calc(50% - 515px);
+    height: calc(100% - 90px);
     border: 4px dashed silver;
     text-align: left;
+    font-size: large;
     color: white;
 }
 
@@ -58,6 +58,24 @@ header {
 }
 
 #gotomirror:hover {
+    background-color: #800080;
+    color: aqua;
+}
+
+#nextlevel {
+    position: absolute;
+    display: inline-block;
+    z-index: 3;
+    text-decoration: none;
+    background-color: violet;
+    color: black;
+    border: 2px solid black;
+    padding: 2px 4px;
+    top: 230px;
+    right: 671px;
+}
+
+#nextlevel:hover {
     background-color: #800080;
     color: aqua;
 }
