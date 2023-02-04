@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
 body {
     margin: 0 ;
     background-image: url(images/Shadow\ mirrors\ background.jpg);
@@ -20,8 +22,9 @@ header {
     height: calc(100% - 90px);
     border: 4px dashed silver;
     text-align: left;
-    font-size: large;
+    font-size: medium;
     color: white;
+    font-family: 'PT Mono', monospace;
 }
 
 #mirrorhall {
@@ -42,6 +45,7 @@ header {
     margin: -1% 51.6%;
     z-index: 3;
     background-color: violet;
+    font-family: 'PT Mono', monospace;
 }
 
 #goback:hover {
@@ -52,9 +56,10 @@ header {
 #gotomirror {
     position: absolute;
     top: 720px;
-    margin: -1% 52%;
+    margin: -1% 51.5%;
     z-index: 3;
     background-color: violet;
+    font-family: 'PT Mono', monospace;
 }
 
 #gotomirror:hover {
@@ -72,7 +77,8 @@ header {
     border: 2px solid black;
     padding: 2px 4px;
     top: 230px;
-    right: 671px;
+    right: 655px;
+    font-family: 'PT Mono', monospace;
 }
 
 #nextlevel:hover {
