@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+body {
+    margin: 0;
+    background-image: url(images/Shadow\ mirrors\ background.jpg);
+    background-position: center;
+}
+
+header {
+    background-color: #696969;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#how-to-move {
+    position: absolute;
+    background-color: #696969;
+    padding-left: 30px;
+    margin: 28px 0;
+    width: calc(50% - 515px);
+    height: calc(100% - 90px);
+    border: 4px dashed silver;
+    text-align: left;
+    font-size: medium;
+    color: white;
+    font-family: 'PT Mono', monospace;
+}
+
+#black-maze {
+    z-index: 1;
+    margin: 2% 20%;
+}
+
+#mirror-portal {
+    position: absolute;
+    top: 225px;
+    margin: 2% 42%;
+    z-index: 2;
+}
+
+.go-back-button {
+    position: absolute;
+    top: 735px;
+    margin: -1% 51.6%;
+    z-index: 3;
+    background-color: violet;
+    font-family: 'PT Mono', monospace;
+}
+
+.go-back-button:hover {
+    background-color: #800080;
+    color: aqua;
+}
+
+.go-forward-button {
+    position: absolute;
+    top: 675px;
+    margin: -1% 51.3%;
+    z-index: 3;
+    background-color: violet;
+    font-family: 'PT Mono', monospace;
+}
+
+.go-forward-button:hover {
+    background-color: #800080;
+    color: aqua;
+}
+
+.go-left-button {
+    position: absolute;
+    top: 370px;
+    margin: -1% 46.5%;
+    z-index: 3;
+    background-color: violet;
+    font-family: 'PT Mono', monospace;
+}
+
+.go-left-button:hover {
+    background-color: #800080;
+    color: aqua;
+}
+
+#go-turn-left-button {
+    position: absolute;
+    top: 370px;
+    margin: -1% 51%;
+    z-index: 3;
+    background-color: violet;
+    font-family: 'PT Mono', monospace;
+}
+
+#go-turn-left-button:hover {
+    background-color: #800080;
+    color: aqua;
+}
+
+.go-right-button {
+    position: absolute;
+    top: 370px;
+    margin: -1% 52.3%;
+    z-index: 3;
+    background-color: violet;
+    font-family: 'PT Mono', monospace;
+}
+
+.go-right-button:hover {
+    background-color: #800080;
+    color: aqua;
+}
+
+#go-turn-right-button {
+    position: absolute;
+    top: 370px;
+    margin: -1% 55%;
+    z-index: 3;
+    background-color: violet;
+    font-family: 'PT Mono', monospace;
+}
+
+#go-turn-right-button:hover {
+    background-color: #800080;
+    color: aqua;
+}
+
+#go-to-mirror {
+    position: absolute;
+    top: 720px;
+    margin: -1% 51.5%;
+    z-index: 3;
+    background-color: violet;
+    font-family: 'PT Mono', monospace;
+}
+
+#go-to-mirror:hover {
+    background-color: #800080;
+    color: aqua;
+}
+
+#next-level {
+    position: absolute;
+    display: inline-block;
+    z-index: 3;
+    text-decoration: none;
+    background-color: violet;
+    color: black;
+    border: 2px solid black;
+    padding: 2px 4px;
+    top: 230px;
+    right: 655px;
+    font-family: 'PT Mono', monospace;
+}
+
+#next-level:hover {
+    background-color: #800080;
+    color: aqua;
+}

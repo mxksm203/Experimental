@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hall of Mirror</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style black maze.css">
+</head>
+<header>
+    <img src="images/Level logo start room.png" height="28" width="240" alt="The Hall of Mirror">
+</header>
+<body>
+    <div id="how-to-move">
+        <p>Нажимайте на кнопки на экране чтобы перемещаться:</p>
+        <img src="images/Movement tips 1.PNG" alt="Кнопка для передвижения">
+        <p>И также чтобы переходить на следующий уровень:</p>
+        <img src="images/Movement tips 2.PNG" alt="Кнопка для перехода на след. уровень">
+        <p>Нажимайте на <b>эти</b> кнопки, чтобы перемещаться налево или направо:</p>
+        <img src="images/Movement tips 3.PNG" alt="Кнопки передвижения налево и направо">
+    </div>
+    <div class="screens">
+        <div id="black-maze"> 
+            <img src="images/Black maze corridor.jpg"  height="700" width="1100"> 
+        </div> 
+        <input type="button" onclick="torazvilkaone()" class="go-forward-button" value="Вперёд">
+        <input type="button" onclick="tomirrorfirst()" class="go-back-button" value="Назад">  
+    </div>
+    
+    <script src="script black maze.js"></script>
+</body>
+</html>
